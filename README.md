@@ -1,9 +1,3 @@
-# Ubuntu 19.10 Python 3.8
-# HTTPAceProxy® https://github.com/pepsik-kiev/HTTPAceProxy
-# Acestream 3.1.49
-
-# Плейлисты взяты ACE Search!
-
 # Установка
 
 `docker run -d --net host -e PGID=0 -e PUID=0 --restart always --privileged --name proxy2 -e TZ=Europe/Moscow tarmets/httpaceproxy2`
